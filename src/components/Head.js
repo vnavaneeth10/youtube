@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { toggleMenu } from '../utils/appSlice';
+import { Link } from 'react-router-dom';
 
 const Head = () => {
 
@@ -22,11 +23,13 @@ const Head = () => {
         alt='Menu-icon' 
         />
 
+        
         <img 
         className='h-8 mx-2'
         src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png' 
         alt='Youtube-Logo'
         />
+        
 
         </div>
 

@@ -9,7 +9,7 @@ const ButtonList = () => {
 
       
       {
-        list.map((item)=> <div className='overflow-x-scroll  no-scrollbar'><Button className='' name={item} /> </div>)
+        list.map((item)=> <div ><Button  name={item} /> </div>)
       }
       
        
