@@ -1,1 +1,0 @@
-className='overflow-x-scroll  no-scrollbar'
