@@ -9,7 +9,7 @@ const ButtonList = () => {
 
       
       {
-        list.map((item)=> <div ><Button  name={item} /> </div>)
+        list.map((item,index)=> <div ><Button key={item.index} name={item} /> </div>)
       }
       
        
