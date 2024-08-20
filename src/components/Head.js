@@ -12,13 +12,13 @@ const Head = () => {
 
   const searchCache = useSelector((store)=>store.search);
 
-  //console.log(searchQuery);
+  
 
   const dispatch = useDispatch();
 
   useEffect(()=>{
 
-    //console.log(searchQuery)
+    
 
     const timer =  setTimeout(()=>{
       if(searchCache[searchQuery]){
@@ -40,7 +40,7 @@ const Head = () => {
   const getSearchSuggest = async () => {
     const data = await fetch(YOUTUBE_SEARCH_API + searchQuery)
     const json = await data.json()
-    //console.log("json",json)
+    
     setSuggestions(json[1]);
 
     //update cache
