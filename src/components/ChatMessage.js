@@ -1,8 +1,11 @@
-import React from 'react'
+
 
 const ChatMessage = () => {
   return (
-    <div>ChatMessage</div>
+
+    <div>
+        ChatMessage
+    </div>
   )
 }
 
