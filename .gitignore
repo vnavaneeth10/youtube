@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 /constants
+Demo.js
+Demo2.js
+demoHelper
+
 
 # testing
 /coverage
