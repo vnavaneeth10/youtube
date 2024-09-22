@@ -39,7 +39,7 @@ const commentsData = [
                       ],
                     },
                     {
-                      name: "Akshay Saini",
+                      name: "Tnor",
                       text: "Lorem ipsum dolor sit amet, consectetur adip",
                       replies: [],
                     },
@@ -52,22 +52,22 @@ const commentsData = [
       ],
     },
     {
-      name: "Akshay Saini",
+      name: "Spider Man",
       text: "Lorem ipsum dolor sit amet, consectetur adip",
       replies: [],
     },
     {
-      name: "Akshay Saini",
+      name: "Dead pool",
       text: "Lorem ipsum dolor sit amet, consectetur adip",
       replies: [],
     },
     {
-      name: "Akshay Saini",
+      name: "Batman",
       text: "Lorem ipsum dolor sit amet, consectetur adip",
       replies: [],
     },
     {
-      name: "Akshay Saini",
+      name: "Super Man",
       text: "Lorem ipsum dolor sit amet, consectetur adip",
       replies: [],
     },
